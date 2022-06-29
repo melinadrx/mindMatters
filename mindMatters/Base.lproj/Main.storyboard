@@ -83,6 +83,106 @@
             <point key="canvasLocation" x="18.840579710144929" y="83.705357142857139"/>
         </scene>
         <!--View Controller-->
+        <scene sceneID="xhb-bk-ETI">
+            <objects>
+                <viewController id="Vaj-6w-FvG" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uBn-3q-su1">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="u69-Kc-qDl">
+                                <rect key="frame" x="20" y="12" width="378" height="818"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZhS-7D-GVT">
+                                <rect key="frame" x="25" y="697" width="232" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Positive Thinking Notes"/>
+                                <connections>
+                                    <segue destination="vLn-TR-hVM" kind="show" id="WoH-ld-uNa"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N81-PI-90w">
+                                <rect key="frame" x="34" y="777" width="56" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" systemColor="labelColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Back"/>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Ncm-3K-gaf"/>
+                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="dJz-Az-pGj"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZWA-la-vvh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="113" y="-665"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="bZc-kG-yFl">
+            <objects>
+                <viewController id="O84-G8-XXx" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gOj-44-hbk">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image-1" translatesAutoresizingMaskIntoConstraints="NO" id="tsq-Ii-JVK">
+                                <rect key="frame" x="20" y="19" width="374" height="789"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nrX-vO-qJe">
+                                <rect key="frame" x="35" y="754" width="56" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Back"/>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="2mr-lI-6g2"/>
+                        <color key="backgroundColor" red="1" green="0.8642277505" blue="0.80189242520000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="BtF-xN-uuq"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Cdc-Ad-2P7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1050.7246376811595" y="-629.46428571428567"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="k97-V9-zEg">
+            <objects>
+                <viewController id="vLn-TR-hVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cTt-hi-dQG">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-06-29 at 3.42.27 PM" translatesAutoresizingMaskIntoConstraints="NO" id="LGV-PS-HGf">
+                                <rect key="frame" x="-9" y="5" width="432" height="832"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ujw-KK-ahp">
+                                <rect key="frame" x="31" y="788" width="56" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" systemColor="labelColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Back"/>
+                                <connections>
+                                    <segue destination="Vaj-6w-FvG" kind="showDetail" id="k8c-dQ-Air"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="veS-JM-e4P"/>
+                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="MnO-8X-QYZ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hjs-Yv-27H" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-562" y="-666"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="E6F-bb-mSo">
             <objects>
                 <viewController id="bqn-cf-rVz" sceneMemberID="viewController">
@@ -100,6 +200,9 @@
                                 <color key="tintColor" red="0.79215681550000006" green="0.70980393890000004" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Notes"/>
+                                <connections>
+                                    <segue destination="Vaj-6w-FvG" kind="show" id="GLc-y3-feW"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gMD-RL-CGx">
                                 <rect key="frame" x="105" y="509" width="93" height="31"/>
@@ -107,6 +210,9 @@
                                 <color key="tintColor" red="0.79215681550000006" green="0.70980393890000004" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Reminders"/>
+                                <connections>
+                                    <segue destination="O84-G8-XXx" kind="show" id="HOJ-Sj-HRQ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Isz-uO-WQh">
                                 <rect key="frame" x="206" y="509" width="52" height="31"/>
@@ -174,6 +280,16 @@
                                     <segue destination="bqn-cf-rVz" kind="show" id="zgz-PN-2Tv"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ydh-IZ-uhl">
+                                <rect key="frame" x="179" y="713" width="58" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="More"/>
+                                <connections>
+                                    <segue destination="t4a-pU-Tng" kind="show" id="m2T-WN-AqP"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="RzZ-kd-1vH"/>
                         <color key="backgroundColor" red="1" green="0.91877498120000001" blue="0.89531833569999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -189,7 +305,7 @@
             <objects>
                 <viewController id="t4a-pU-Tng" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aeI-wi-2dW">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Dont believe us - then keep reading!!! " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pho-QP-pwH">
@@ -390,12 +506,17 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="wS6-9W-PBD"/>
         <segue reference="zgz-PN-2Tv"/>
+        <segue reference="GLc-y3-feW"/>
     </inferredMetricsTieBreakers>
     <resources>
+        <image name="Image" width="509" height="1107"/>
+        <image name="Image-1" width="602" height="1297"/>
         <image name="Screen Shot 2022-06-29 at 3.37.37 PM 1" width="609" height="1301"/>
         <image name="Screen Shot 2022-06-29 at 3.38.19 PM" width="611" height="1297"/>
         <image name="Screen Shot 2022-06-29 at 3.38.51 PM" width="604" height="1302"/>
+        <image name="Screen Shot 2022-06-29 at 3.42.27 PM" width="279" height="609.5"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

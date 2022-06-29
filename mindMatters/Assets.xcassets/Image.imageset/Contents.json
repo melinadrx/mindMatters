@@ -1,11 +1,15 @@
 {
   "images" : [
     {
+      "filename" : "Screen Shot 2022-06-29 at 3.42.27 PM.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "Screen Shot 2022-06-29 at 3.43.02 PM.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
       "idiom" : "universal",
       "scale" : "2x"
     },
