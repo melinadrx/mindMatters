@@ -121,6 +121,9 @@
                                 <color key="tintColor" red="0.79215681550000006" green="0.70980393890000004" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Info Page"/>
+                                <connections>
+                                    <segue destination="qQN-7E-owY" kind="show" id="wS6-9W-PBD"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qdo-ca-dwF">
                                 <rect key="frame" x="106" y="587" width="92" height="31"/>
@@ -154,24 +157,28 @@
             <objects>
                 <viewController id="qQN-7E-owY" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ob0-iM-rDV">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-06-29 at 3.38.51 PM" translatesAutoresizingMaskIntoConstraints="NO" id="ncd-TP-Kf1">
-                                <rect key="frame" x="10" y="-41" width="394" height="978"/>
+                                <rect key="frame" x="20" y="0.0" width="379" height="842"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7pm-Yb-amb">
-                                <rect key="frame" x="25" y="814" width="56" height="31"/>
+                                <rect key="frame" x="32" y="773" width="56" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" systemColor="labelColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Back"/>
+                                <connections>
+                                    <segue destination="bqn-cf-rVz" kind="show" id="zgz-PN-2Tv"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="RzZ-kd-1vH"/>
                         <color key="backgroundColor" red="1" green="0.91877498120000001" blue="0.89531833569999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
+                    <navigationItem key="navigationItem" id="pb7-14-crc"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="L3U-Wo-imD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -382,6 +389,9 @@
             <point key="canvasLocation" x="1980" y="1557"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="zgz-PN-2Tv"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="Screen Shot 2022-06-29 at 3.37.37 PM 1" width="609" height="1301"/>
         <image name="Screen Shot 2022-06-29 at 3.38.19 PM" width="611" height="1297"/>
