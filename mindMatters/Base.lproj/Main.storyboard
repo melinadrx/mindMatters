@@ -90,13 +90,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="u69-Kc-qDl">
-                                <rect key="frame" x="20" y="12" width="378" height="818"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="u69-Kc-qDl">
+                                <rect key="frame" x="0.0" y="20" width="414" height="786"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZhS-7D-GVT">
-                                <rect key="frame" x="25" y="697" width="232" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZhS-7D-GVT">
+                                <rect key="frame" x="34" y="709" width="232" height="31"/>
                                 <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Positive Thinking Notes"/>
@@ -104,9 +102,8 @@
                                     <segue destination="vLn-TR-hVM" kind="show" id="WoH-ld-uNa"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N81-PI-90w">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N81-PI-90w">
                                 <rect key="frame" x="34" y="777" width="56" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" systemColor="labelColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Back"/>
@@ -114,9 +111,39 @@
                                     <segue destination="bqn-cf-rVz" kind="show" id="17r-Kp-e6Y"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1ig-WS-cU1">
+                                <rect key="frame" x="34" y="200" width="343" height="34"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pyj-NC-4kX">
+                                <rect key="frame" x="36" y="514" width="343" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Ncm-3K-gaf"/>
                         <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="pyj-NC-4kX" firstAttribute="centerX" secondItem="u69-Kc-qDl" secondAttribute="centerX" id="4cS-jJ-96D"/>
+                            <constraint firstItem="N81-PI-90w" firstAttribute="top" secondItem="ZhS-7D-GVT" secondAttribute="bottom" constant="37" id="8hY-SR-WW9"/>
+                            <constraint firstItem="Ncm-3K-gaf" firstAttribute="trailing" secondItem="ZhS-7D-GVT" secondAttribute="trailing" constant="148" id="8qv-TY-V9m"/>
+                            <constraint firstAttribute="bottom" secondItem="ZhS-7D-GVT" secondAttribute="bottom" constant="102" id="AP4-Fo-OhG"/>
+                            <constraint firstItem="1ig-WS-cU1" firstAttribute="centerX" secondItem="u69-Kc-qDl" secondAttribute="centerX" id="C9W-C4-afK"/>
+                            <constraint firstItem="pyj-NC-4kX" firstAttribute="leading" secondItem="Ncm-3K-gaf" secondAttribute="leading" constant="36" id="Gd3-JZ-XS2"/>
+                            <constraint firstItem="u69-Kc-qDl" firstAttribute="centerX" secondItem="Ncm-3K-gaf" secondAttribute="centerX" id="IKa-Ym-3mu"/>
+                            <constraint firstItem="u69-Kc-qDl" firstAttribute="leading" secondItem="Ncm-3K-gaf" secondAttribute="leading" id="KjW-pm-5zX"/>
+                            <constraint firstItem="pyj-NC-4kX" firstAttribute="centerX" secondItem="u69-Kc-qDl" secondAttribute="centerX" id="Nrk-IT-4We"/>
+                            <constraint firstItem="1ig-WS-cU1" firstAttribute="top" secondItem="Ncm-3K-gaf" secondAttribute="top" constant="200" id="YN3-KS-WpD"/>
+                            <constraint firstItem="pyj-NC-4kX" firstAttribute="centerY" secondItem="u69-Kc-qDl" secondAttribute="centerY" id="a4m-Ym-eTl"/>
+                            <constraint firstItem="Ncm-3K-gaf" firstAttribute="bottom" secondItem="u69-Kc-qDl" secondAttribute="bottom" constant="2" id="eWF-P0-s3c"/>
+                            <constraint firstItem="u69-Kc-qDl" firstAttribute="top" secondItem="Ncm-3K-gaf" secondAttribute="top" constant="20" id="hPN-so-OXj"/>
+                            <constraint firstItem="1ig-WS-cU1" firstAttribute="leading" secondItem="Ncm-3K-gaf" secondAttribute="leading" constant="34" id="j1C-OQ-pDr"/>
+                            <constraint firstItem="pyj-NC-4kX" firstAttribute="centerX" secondItem="u69-Kc-qDl" secondAttribute="centerX" id="lNT-4V-yMk"/>
+                            <constraint firstItem="1ig-WS-cU1" firstAttribute="leading" secondItem="N81-PI-90w" secondAttribute="leading" id="mko-c7-qzL"/>
+                            <constraint firstItem="1ig-WS-cU1" firstAttribute="centerX" secondItem="u69-Kc-qDl" secondAttribute="centerX" id="v9a-bI-dPG"/>
+                            <constraint firstItem="1ig-WS-cU1" firstAttribute="leading" secondItem="ZhS-7D-GVT" secondAttribute="leading" id="wCi-Rf-6Bc"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="dJz-Az-pGj"/>
                 </viewController>
@@ -132,9 +159,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image-1" translatesAutoresizingMaskIntoConstraints="NO" id="tsq-Ii-JVK">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Image-1" translatesAutoresizingMaskIntoConstraints="NO" id="tsq-Ii-JVK">
                                 <rect key="frame" x="20" y="19" width="374" height="789"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nrX-vO-qJe">
                                 <rect key="frame" x="35" y="754" width="56" height="31"/>
@@ -149,6 +175,12 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="2mr-lI-6g2"/>
                         <color key="backgroundColor" red="1" green="0.8642277505" blue="0.80189242520000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="tsq-Ii-JVK" firstAttribute="bottom" secondItem="2mr-lI-6g2" secondAttribute="bottom" id="9ri-Qs-UzX"/>
+                            <constraint firstItem="tsq-Ii-JVK" firstAttribute="top" secondItem="2mr-lI-6g2" secondAttribute="top" constant="19" id="RWq-CI-HZE"/>
+                            <constraint firstItem="tsq-Ii-JVK" firstAttribute="leading" secondItem="gOj-44-hbk" secondAttribute="leadingMargin" id="uXS-gL-AO8"/>
+                            <constraint firstItem="tsq-Ii-JVK" firstAttribute="centerX" secondItem="2mr-lI-6g2" secondAttribute="centerX" id="xXa-DP-rN3"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="BtF-xN-uuq"/>
                 </viewController>
@@ -196,9 +228,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-06-29 at 3.38.19 PM" translatesAutoresizingMaskIntoConstraints="NO" id="Boz-rM-T3l">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Screen Shot 2022-06-29 at 3.38.19 PM" translatesAutoresizingMaskIntoConstraints="NO" id="Boz-rM-T3l">
                                 <rect key="frame" x="-7" y="14" width="429" height="814"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nAm-gb-eRw">
                                 <rect key="frame" x="30" y="511" width="67" height="27"/>
@@ -257,6 +288,10 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="kFW-pn-2hw"/>
                         <color key="backgroundColor" red="0.90133322490000001" green="0.94922939510000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="Boz-rM-T3l" firstAttribute="centerY" secondItem="kFW-pn-2hw" secondAttribute="centerY" id="9or-W6-Cjl"/>
+                            <constraint firstItem="Boz-rM-T3l" firstAttribute="centerX" secondItem="kFW-pn-2hw" secondAttribute="centerX" id="nIP-VN-19d"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Icw-dJ-anY"/>
                 </viewController>
@@ -272,9 +307,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-06-29 at 3.38.51 PM" translatesAutoresizingMaskIntoConstraints="NO" id="ncd-TP-Kf1">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Screen Shot 2022-06-29 at 3.38.51 PM" translatesAutoresizingMaskIntoConstraints="NO" id="ncd-TP-Kf1">
                                 <rect key="frame" x="20" y="0.0" width="379" height="842"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7pm-Yb-amb">
                                 <rect key="frame" x="32" y="773" width="56" height="31"/>
@@ -299,6 +333,10 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="RzZ-kd-1vH"/>
                         <color key="backgroundColor" red="1" green="0.91877498120000001" blue="0.89531833569999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="ncd-TP-Kf1" firstAttribute="centerY" secondItem="RzZ-kd-1vH" secondAttribute="centerY" id="3gM-KP-fzs"/>
+                            <constraint firstItem="ncd-TP-Kf1" firstAttribute="centerX" secondItem="RzZ-kd-1vH" secondAttribute="centerX" id="44Y-QB-jG9"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="pb7-14-crc"/>
                 </viewController>
@@ -314,23 +352,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Dont believe us - then keep reading!!! " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pho-QP-pwH">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dont believe us - then keep reading!!! " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pho-QP-pwH">
                                 <rect key="frame" x="62" y="83" width="290" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Our suggestions help" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vha-j1-Y8q">
-                                <rect key="frame" x="126" y="44" width="163" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Our suggestions help" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vha-j1-Y8q">
+                                <rect key="frame" x="125.5" y="44" width="163" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y9l-DD-oiJ">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y9l-DD-oiJ">
                                 <rect key="frame" x="102" y="349" width="211" height="38"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Benefits of excersice">
                                     <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
@@ -340,9 +375,8 @@
                                     <segue destination="wHD-Lg-vLk" kind="show" id="Ajj-K7-pfe"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s5j-8q-Ebi">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s5j-8q-Ebi">
                                 <rect key="frame" x="97" y="487" width="221" height="38"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Benefits of Meditation">
                                     <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
@@ -352,9 +386,8 @@
                                     <segue destination="val-wi-AQS" kind="show" id="Gdk-eI-KTG"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Afj-9R-26J">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Afj-9R-26J">
                                 <rect key="frame" x="94" y="204" width="219" height="38"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Benefits of Journaling">
                                     <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
@@ -367,6 +400,21 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="nYE-l0-6BM"/>
                         <color key="backgroundColor" red="0.5281662345" green="0.60388308759999998" blue="0.66426563260000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Pho-QP-pwH" firstAttribute="centerX" secondItem="nYE-l0-6BM" secondAttribute="centerX" id="0xD-nM-PWV"/>
+                            <constraint firstItem="Vha-j1-Y8q" firstAttribute="centerX" secondItem="nYE-l0-6BM" secondAttribute="centerX" id="7HR-wI-mlB"/>
+                            <constraint firstItem="Afj-9R-26J" firstAttribute="trailing" secondItem="Y9l-DD-oiJ" secondAttribute="trailing" id="FBq-OU-J8n"/>
+                            <constraint firstItem="Pho-QP-pwH" firstAttribute="top" secondItem="aeI-wi-2dW" secondAttribute="top" constant="83" id="KKB-mM-rr3"/>
+                            <constraint firstItem="Afj-9R-26J" firstAttribute="top" secondItem="aeI-wi-2dW" secondAttribute="top" constant="204" id="aBx-Vb-XKU"/>
+                            <constraint firstItem="s5j-8q-Ebi" firstAttribute="centerX" secondItem="nYE-l0-6BM" secondAttribute="centerX" id="hx5-cx-l4f"/>
+                            <constraint firstItem="Afj-9R-26J" firstAttribute="centerX" secondItem="nYE-l0-6BM" secondAttribute="centerX" id="lUa-Ac-qDm"/>
+                            <constraint firstItem="Pho-QP-pwH" firstAttribute="top" secondItem="Vha-j1-Y8q" secondAttribute="bottom" constant="18" id="oCl-Uk-lDU"/>
+                            <constraint firstItem="Y9l-DD-oiJ" firstAttribute="centerX" secondItem="nYE-l0-6BM" secondAttribute="centerX" id="qG2-1y-nlq"/>
+                            <constraint firstItem="nYE-l0-6BM" firstAttribute="bottom" secondItem="s5j-8q-Ebi" secondAttribute="bottom" constant="283" id="rDz-lr-2w4"/>
+                            <constraint firstItem="s5j-8q-Ebi" firstAttribute="leading" secondItem="nYE-l0-6BM" secondAttribute="leading" constant="97" id="tII-AH-ScH"/>
+                            <constraint firstItem="Y9l-DD-oiJ" firstAttribute="top" secondItem="aeI-wi-2dW" secondAttribute="top" constant="349" id="yb6-k4-0va"/>
+                            <constraint firstItem="Y9l-DD-oiJ" firstAttribute="leading" secondItem="nYE-l0-6BM" secondAttribute="leading" constant="102" id="yna-1Q-rud"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="OwH-UC-9C0"/>
                 </viewController>
@@ -397,7 +445,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vcS-fi-1Wn">
-                                <rect key="frame" x="35" y="177" width="359" height="174"/>
+                                <rect key="frame" x="35" y="176" width="359" height="174"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">It helps with brooding. Writing about an emotional event can help you break away from the nonstop cycle of obsessively thinking and brooding over what happened.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -405,16 +453,24 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="It creates awareness. Writing down your feelings about a difficult situation can help you understand it better. " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5C1-8B-EEK">
-                                <rect key="frame" x="20" y="330" width="218" height="121"/>
+                                <rect key="frame" x="20" y="329" width="218" height="121"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jDg-qv-8rh">
-                                <rect key="frame" x="119" y="430" width="317" height="124"/>
+                                <rect key="frame" x="115" y="446" width="317" height="124"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">It regulates emotions. Brain scans of people who wrote about their feelings showed that they were able to control their emotions better than those who wrote about a neutral experience.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tmF-eQ-DsG">
+                                <rect key="frame" x="18" y="578" width="272" height="117"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">It encourages opening up. Writing privately about a stressful event could encourage some to reach out for social support. This can help with emotional healing.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -422,14 +478,6 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="It can speed up physical healing. Journaling may also have an impact on physical health." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GHt-GE-MI7">
                                 <rect key="frame" x="130" y="703" width="264" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tmF-eQ-DsG">
-                                <rect key="frame" x="18" y="543" width="272" height="117"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">It encourages opening up. Writing privately about a stressful event could encourage some to reach out for social support. This can help with emotional healing.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -452,24 +500,27 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Benefits of excercise" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nPi-J3-izd">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Benefits of excercise" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nPi-J3-izd">
                                 <rect key="frame" x="96" y="101" width="223" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="IHl-bH-D4c"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r9R-Zh-gQB">
-                                <rect key="frame" x="32" y="322" width="229" height="226"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r9R-Zh-gQB">
+                                <rect key="frame" x="32" y="322" width="350" height="226"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="226" id="dbt-48-x6b"/>
+                                </constraints>
                                 <string key="text">Regular exercise can have a profoundly positive impact on depression, anxiety, and ADHD. It also relieves stress, improves memory, helps you sleep better, and boosts your overall mood.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dxe-oC-Wu9">
-                                <rect key="frame" x="26" y="145" width="251" height="147"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dxe-oC-Wu9">
+                                <rect key="frame" x="29" y="139" width="356" height="147"/>
                                 <string key="text"> A recent study done by the Harvard T.H. Chan School of Public Health found that running for 15 minutes a day or walking for an hour reduces the risk of major depression by 26%</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -478,6 +529,17 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="sVU-Qh-FoP"/>
                         <color key="backgroundColor" red="0.8866150975" green="0.75809258219999998" blue="0.62720161679999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="dxe-oC-Wu9" firstAttribute="centerX" secondItem="sVU-Qh-FoP" secondAttribute="centerX" id="089-wj-UV1"/>
+                            <constraint firstItem="r9R-Zh-gQB" firstAttribute="centerX" secondItem="sVU-Qh-FoP" secondAttribute="centerX" id="8gm-ve-aK1"/>
+                            <constraint firstItem="nPi-J3-izd" firstAttribute="leading" secondItem="sVU-Qh-FoP" secondAttribute="leading" constant="96" id="Faw-hG-l8K"/>
+                            <constraint firstItem="r9R-Zh-gQB" firstAttribute="top" secondItem="dxe-oC-Wu9" secondAttribute="bottom" constant="36" id="NsU-Fb-e06"/>
+                            <constraint firstItem="dxe-oC-Wu9" firstAttribute="top" secondItem="nPi-J3-izd" secondAttribute="bottom" constant="8" id="RNe-pp-JaL"/>
+                            <constraint firstItem="r9R-Zh-gQB" firstAttribute="leading" secondItem="sVU-Qh-FoP" secondAttribute="leading" constant="32" id="Uij-Ux-NTU"/>
+                            <constraint firstItem="nPi-J3-izd" firstAttribute="top" secondItem="sVU-Qh-FoP" secondAttribute="top" constant="101" id="Vfd-TS-iuV"/>
+                            <constraint firstItem="sVU-Qh-FoP" firstAttribute="bottom" secondItem="r9R-Zh-gQB" secondAttribute="bottom" constant="260" id="ugN-00-Nlh"/>
+                            <constraint firstItem="nPi-J3-izd" firstAttribute="centerX" secondItem="sVU-Qh-FoP" secondAttribute="centerX" id="wdc-FE-sFL"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="ccj-vA-Hnp"/>
                 </viewController>
@@ -512,8 +574,8 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Q6e-oU-X4o"/>
-        <segue reference="27O-by-1dS"/>
+        <segue reference="wpz-Ml-v23"/>
+        <segue reference="GLc-y3-feW"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Image" width="509" height="1107"/>
