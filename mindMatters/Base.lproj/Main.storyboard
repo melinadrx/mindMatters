@@ -110,6 +110,9 @@
                                 <color key="tintColor" systemColor="labelColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Back"/>
+                                <connections>
+                                    <segue destination="bqn-cf-rVz" kind="show" id="17r-Kp-e6Y"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Ncm-3K-gaf"/>
@@ -119,7 +122,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZWA-la-vvh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="113" y="-665"/>
+            <point key="canvasLocation" x="111.59420289855073" y="-665.625"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="bZc-kG-yFl">
@@ -139,6 +142,9 @@
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Back"/>
+                                <connections>
+                                    <segue destination="bqn-cf-rVz" kind="show" id="wpz-Ml-v23"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="2mr-lI-6g2"/>
@@ -169,7 +175,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Back"/>
                                 <connections>
-                                    <segue destination="Vaj-6w-FvG" kind="showDetail" id="k8c-dQ-Air"/>
+                                    <segue destination="Vaj-6w-FvG" kind="show" id="27O-by-1dS"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -180,7 +186,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hjs-Yv-27H" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-562" y="-666"/>
+            <point key="canvasLocation" x="-875" y="-666"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="E6F-bb-mSo">
@@ -298,7 +304,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="L3U-Wo-imD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1489.8550724637682" y="83.705357142857139"/>
+            <point key="canvasLocation" x="1519" y="84"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="rxy-Q0-tdw">
@@ -506,9 +512,8 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="wS6-9W-PBD"/>
-        <segue reference="zgz-PN-2Tv"/>
-        <segue reference="GLc-y3-feW"/>
+        <segue reference="Q6e-oU-X4o"/>
+        <segue reference="27O-by-1dS"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Image" width="509" height="1107"/>
