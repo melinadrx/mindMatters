@@ -102,6 +102,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZhS-7D-GVT">
                                 <rect key="frame" x="27" y="679" width="232" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Positive Thinking Notes"/>
@@ -238,8 +239,8 @@
                                 <rect key="frame" x="28" y="732" width="76" height="72"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oe0-5z-Nj6">
-                                <rect key="frame" x="27" y="746" width="78" height="44"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sbj-M2-BCp">
+                                <rect key="frame" x="26" y="746" width="78" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
@@ -247,7 +248,7 @@
                                     <fontDescription key="titleFontDescription" type="italicSystem" pointSize="25"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="Vaj-6w-FvG" kind="show" id="UUI-bq-MKH"/>
+                                    <segue destination="bqn-cf-rVz" kind="show" id="k4K-jL-dXt"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -596,8 +597,7 @@
     <inferredMetricsTieBreakers>
         <segue reference="yoy-9E-zxa"/>
         <segue reference="wS6-9W-PBD"/>
-        <segue reference="8DR-Lh-H2f"/>
-        <segue reference="GLc-y3-feW"/>
+        <segue reference="nHY-EV-h9f"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Image" width="509" height="1107"/>
