@@ -92,22 +92,13 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="u69-Kc-qDl">
                                 <rect key="frame" x="0.0" y="20" width="414" height="786"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N81-PI-90w">
-                                <rect key="frame" x="34" y="755" width="56" height="31"/>
-                                <color key="tintColor" red="0.81238687040000002" green="0.70576882360000004" blue="0.89136320349999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Back"/>
-                                <connections>
-                                    <segue destination="bqn-cf-rVz" kind="show" id="17r-Kp-e6Y"/>
-                                </connections>
-                            </button>
                             <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1ig-WS-cU1">
-                                <rect key="frame" x="34" y="200" width="343" height="34"/>
+                                <rect key="frame" x="34" y="190" width="343" height="34"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pyj-NC-4kX">
-                                <rect key="frame" x="36" y="514" width="343" height="34"/>
+                                <rect key="frame" x="34" y="491" width="343" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
@@ -118,6 +109,15 @@
                                 <buttonConfiguration key="configuration" style="filled" title="Positive Thinking Notes"/>
                                 <connections>
                                     <segue destination="vLn-TR-hVM" kind="show" id="WoH-ld-uNa"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N81-PI-90w">
+                                <rect key="frame" x="38" y="755" width="56" height="31"/>
+                                <color key="tintColor" red="0.81238687040000002" green="0.70576882360000004" blue="0.89136320349999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Back"/>
+                                <connections>
+                                    <segue destination="bqn-cf-rVz" kind="show" id="17r-Kp-e6Y"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -195,21 +195,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen Shot 2022-06-29 at 3.42.27 PM" translatesAutoresizingMaskIntoConstraints="NO" id="LGV-PS-HGf">
-                                <rect key="frame" x="-9" y="49" width="432" height="744"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Screen Shot 2022-06-29 at 3.42.27 PM" translatesAutoresizingMaskIntoConstraints="NO" id="LGV-PS-HGf">
+                                <rect key="frame" x="-23" y="20" width="461" height="788"/>
                             </imageView>
                             <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ksT-FM-67U">
-                                <rect key="frame" x="83" y="241" width="249" height="34"/>
+                                <rect key="frame" x="35" y="190" width="344" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Lr5-Oo-WQM">
-                                <rect key="frame" x="83" y="529" width="249" height="34"/>
+                                <rect key="frame" x="35" y="471" width="344" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ujw-KK-ahp">
-                                <rect key="frame" x="49" y="747" width="56" height="31"/>
+                                <rect key="frame" x="40" y="757" width="56" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.81238687040000002" green="0.70576882360000004" blue="0.89136320349999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
@@ -251,18 +251,8 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Screen Shot 2022-06-29 at 3.38.19 PM" translatesAutoresizingMaskIntoConstraints="NO" id="Boz-rM-T3l">
                                 <rect key="frame" x="-7" y="0.0" width="429" height="814"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nAm-gb-eRw">
-                                <rect key="frame" x="30" y="511" width="67" height="27"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.79215681550000006" green="0.70980393890000004" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Notes"/>
-                                <connections>
-                                    <segue destination="Vaj-6w-FvG" kind="show" id="GLc-y3-feW"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gMD-RL-CGx">
-                                <rect key="frame" x="105" y="509" width="93" height="31"/>
+                                <rect key="frame" x="100" y="500" width="103" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.79215681550000006" green="0.70980393890000004" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
@@ -272,14 +262,14 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Isz-uO-WQh">
-                                <rect key="frame" x="206" y="509" width="52" height="31"/>
+                                <rect key="frame" x="206" y="499" width="88" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.79215681550000006" green="0.70980393890000004" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Poll"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Np-Vq-4GV">
-                                <rect key="frame" x="304" y="509" width="80" height="29"/>
+                                <rect key="frame" x="302" y="498" width="83" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.79215681550000006" green="0.70980393890000004" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
@@ -289,7 +279,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qdo-ca-dwF">
-                                <rect key="frame" x="106" y="587" width="92" height="31"/>
+                                <rect key="frame" x="106" y="581" width="188" height="26"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.79215681550000006" green="0.70980393890000004" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
@@ -303,6 +293,16 @@
                                 <buttonConfiguration key="configuration" style="filled" title="Back"/>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="show" id="Kvw-Zq-MSI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nAm-gb-eRw">
+                                <rect key="frame" x="30" y="501" width="67" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.79215681550000006" green="0.70980393890000004" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Notes"/>
+                                <connections>
+                                    <segue destination="Vaj-6w-FvG" kind="show" id="GLc-y3-feW"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -419,6 +419,13 @@
                                     <segue destination="KKS-GR-Onp" kind="show" id="ZFi-Xi-cP8"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mya-eV-rKL">
+                                <rect key="frame" x="186" y="288" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="nYE-l0-6BM"/>
                         <color key="backgroundColor" red="0.5281662345" green="0.60388308759999998" blue="0.66426563260000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -596,9 +603,8 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="WoH-ld-uNa"/>
         <segue reference="17r-Kp-e6Y"/>
-        <segue reference="27O-by-1dS"/>
+        <segue reference="GLc-y3-feW"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Image" width="509" height="1107"/>
